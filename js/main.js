@@ -1,1 +1,1 @@
-document.getElementById("rfqForm").addEventListener("submit",function(e){e.preventDefault();document.getElementById("successMessage").innerText="Thank you. We will contact you shortly.";this.reset();});
+document.addEventListener("DOMContentLoaded",()=>{const f=document.getElementById("rfqForm"); if(f){f.addEventListener("submit",e=>{e.preventDefault();alert("Thank you. Your inquiry has been received.");});}});
